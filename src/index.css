@@ -62,11 +62,33 @@ a {
 .all-movies-link {
   color: #fff;
   font-size: 5rem;
+  box-shadow: 0px 0px 100px rgb(73, 72, 72);
+  padding: 2rem 4rem;
+  border-radius: 30px;
+}
+
+.all-movies-link-watchlist {
+  color: white;
+  font-size: 2rem;
+  box-shadow: 0px 0px 100px rgb(73, 72, 72);
+  padding: 2rem 3rem;
+  border-radius: 30px;
 }
 
 .watchlist-link {
-  color: black;
+  color: white;
   font-size: 2rem;
+  box-shadow: 0px 0px 100px rgb(73, 72, 72);
+  padding: 2rem 3rem;
+  border-radius: 20px;
+}
+
+.watchlist-link-watchlist {
+  color: #fff;
+  font-size: 5rem;
+  box-shadow: 0px 0px 100px rgb(73, 72, 72);
+  padding: 2rem 4rem;
+  border-radius: 30px;
 }
 
 /* INPUT FIELD STLING */
@@ -85,22 +107,31 @@ a {
 
 .search-form i {
   color: black;
-  background-color: rgb(114, 110, 110);
+  background-color: #fff;
   height: 5vh;
   width: 5vh;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 1rem;
+  border: 2px solid black;
+  border-right: none;
+  border-radius: 50px 0px 0px 50px;
 }
 
 .search-form input {
   width: 80%;
   height: 5vh;
+  border: 2px solid black;
+  border-left: none;
+  border-right: none;
 }
 
 .search-form button {
   min-width: 20%;
   min-height: 5vh;
   max-height: 5vh;
+  border: 2px solid black;
+  border-left: none;
+  border-radius: 0px 50px 50px 0px;
 }
