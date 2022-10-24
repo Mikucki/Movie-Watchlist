@@ -40,8 +40,7 @@ a {
 .background {
   width: 100vw;
   height: 35vh;
-  background: black url("./images/photo-1478720568477-152d9b164e26.avif")
-    no-repeat center;
+  background: black url("./images/mension.jpg") no-repeat center;
   background-size: cover;
   filter: brightness(30%);
   position: absolute;
@@ -61,37 +60,35 @@ a {
 
 .all-movies-link {
   color: #fff;
-  font-size: 5rem;
-  box-shadow: 0px 0px 100px rgb(73, 72, 72);
+  font-size: 3rem;
   padding: 2rem 4rem;
   border-radius: 30px;
 }
 
 .all-movies-link-watchlist {
   color: white;
-  font-size: 2rem;
-  box-shadow: 0px 0px 100px rgb(73, 72, 72);
+  font-size: 1.5rem;
   padding: 2rem 3rem;
   border-radius: 30px;
 }
 
 .watchlist-link {
   color: white;
-  font-size: 2rem;
-  box-shadow: 0px 0px 100px rgb(73, 72, 72);
+  font-size: 1.5rem;
   padding: 2rem 3rem;
   border-radius: 20px;
 }
 
 .watchlist-link-watchlist {
   color: #fff;
-  font-size: 5rem;
-  box-shadow: 0px 0px 100px rgb(73, 72, 72);
+  font-size: 3rem;
   padding: 2rem 4rem;
   border-radius: 30px;
 }
 
 /* INPUT FIELD STLING */
+
+
 
 .search-for-movie {
   width: 65vw;
@@ -117,6 +114,7 @@ a {
   border: 2px solid black;
   border-right: none;
   border-radius: 50px 0px 0px 50px;
+  padding: 0 2em;
 }
 
 .search-form input {
@@ -134,4 +132,14 @@ a {
   border: 2px solid black;
   border-left: none;
   border-radius: 0px 50px 50px 0px;
+  transition: background-color 1s;
 }
+
+.search-form button:hover {
+  background-color: rgb(88, 97, 137);
+}
+
+
+/* main contetnt here */
+
+
