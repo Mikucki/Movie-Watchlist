@@ -10,7 +10,8 @@
 body {
   padding: 0;
   margin: 0;
-  color: red;
+  background-color: #0093e9;
+  background-image: linear-gradient(160deg, #0093e9 0%, #80d0c7 100%);
 }
 
 h1,
@@ -145,18 +146,33 @@ li a:hover {
 /* main contetnt here */
 
 main {
-  background-color: #0093e9;
-  background-image: linear-gradient(160deg, #0093e9 0%, #80d0c7 100%);
-  height: 100vh;
+  height: 57vh;
   color: black;
+  margin: 0 auto;
 }
 
 .cards {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  max-width: 80vw;
+  gap: 20px;
 }
 
 .card {
-  
+  border: 5px solid black;
+  height: 80%;
+  display: flex;
+  align-items: center;
+  flex-flow: column wrap;
+  justify-content: center;
+}
+
+.card__img {
+  width: 100%;
+  height: 20vh;
+  background-image: url(./images/realestate.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
