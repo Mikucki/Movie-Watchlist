@@ -51,23 +51,20 @@ li a:hover {
 /* nav bar links styling */
 
 .background {
-  width: 100vw;
+  width: 100%;
   height: 35vh;
   background: black url("./images/mension.jpg") no-repeat center;
   background-size: cover;
-  top: 0;
-  display: flex;
-  justify-content: center;
 }
 
 .nav-bar {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   color: black;
   background-color: white;
   height: 80px;
-  padding: 0 10vw;
+  width: 98vw;
 }
 
 .logo {
@@ -98,7 +95,8 @@ li a:hover {
 
 .search-for-movie {
   width: 65vw;
-  margin-top: 200px;
+  position: absolute;
+  top: 22vh;
 }
 
 .search-form {
@@ -110,7 +108,7 @@ li a:hover {
 .search-form span {
   color: black;
   background-color: #fff;
-  height: 5vh;
+  height: 7vh;
   width: 5vh;
   display: flex;
   justify-content: center;
@@ -124,7 +122,7 @@ li a:hover {
 
 .search-form input {
   width: 80%;
-  height: 5vh;
+  height: 7vh;
   border: 2px solid black;
   border-left: none;
   border-right: none;
@@ -132,8 +130,8 @@ li a:hover {
 
 .search-form button {
   min-width: 20%;
-  min-height: 5vh;
-  max-height: 5vh;
+  min-height: 7vh;
+  max-height: 7vh;
   border: 2px solid black;
   border-left: none;
   border-radius: 0px 50px 50px 0px;
@@ -151,4 +149,14 @@ main {
   background-image: linear-gradient(160deg, #0093e9 0%, #80d0c7 100%);
   height: 100vh;
   color: black;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.card {
+  
 }
