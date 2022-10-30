@@ -4,6 +4,7 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  font-family: "Oswald", sans-serif;
 }
 
 body {
@@ -30,6 +31,14 @@ ul {
   list-style-type: none;
 }
 
+li a {
+  color: black;
+}
+
+li a:hover {
+  color: purple;
+}
+
 .container {
   background-color: #fff;
   display: flex;
@@ -47,8 +56,12 @@ ul {
   background: black url("./images/mension.jpg") no-repeat center;
   background-size: cover; 
   top: 0;
+<<<<<<< Updated upstream
   display: flex;
   justify-content: center;
+=======
+  border-bottom: 2px solid black;
+>>>>>>> Stashed changes
 }
 
 .nav-bar {
@@ -77,19 +90,28 @@ ul {
   font-size: 2em;
 }
 
+<<<<<<< Updated upstream
 .nav-bar li:last-child {
   border: 1px solid black;
   padding: 1em 2em;
   border-radius: 10px;
   background-color: #0093E9;
 background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+=======
+.signin {
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: #79aaea;
+  cursor: pointer;
+  padding: 0.65em 2.5em;
+>>>>>>> Stashed changes
 }
+
 /* INPUT FIELD STLING */
 
 .search-for-movie {
   width: 65vw;
-  position: absolute;
-  top: 32.5%;
+  margin-top: 200px;
 }
 
 .search-form {
@@ -98,7 +120,7 @@ background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
   align-items: center;
 }
 
-.search-form i {
+.search-form span {
   color: black;
   background-color: #fff;
   height: 5vh;
@@ -137,6 +159,7 @@ background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
 
 /* main contetnt here */
 
+<<<<<<< Updated upstream
 
 
 main {
@@ -145,3 +168,9 @@ background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
   height: 100vh;
   color: black;
 }
+=======
+main {
+  background-image: linear-gradient(190deg, #43cbff 10%, #9708cc 100%);
+  height: 100vh;
+}
+>>>>>>> Stashed changes
