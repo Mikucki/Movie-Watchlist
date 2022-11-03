@@ -160,12 +160,14 @@ main {
 }
 
 .card {
-  border: 5px solid black;
+  border: 2px solid black;
   height: 80%;
   display: flex;
   align-items: center;
-  flex-flow: column wrap;
+  flex-flow: column nowrap;
   justify-content: center;
+  border-radius: 25px;
+  width: 30vw;
 }
 
 .card__img {
@@ -175,4 +177,24 @@ main {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  margin-bottom: auto;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+
+.card__title {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+.card__disc {
+  padding: 0 10%;
+  line-height: 1.4z;
+}
+
+.card__button {
+  padding: 1rem 3rem;
+  background-color: red;
+  margin: 1.5rem 0;
+  font-weight: bold;
 }
