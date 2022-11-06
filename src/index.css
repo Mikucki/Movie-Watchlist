@@ -84,7 +84,7 @@ li a:hover {
   font-size: 2em;
 }
 
-.nav-bar li:last-child {
+.nav-bar li a:last-child {
   border: 1px solid black;
   padding: 1em 2em;
   border-radius: 10px;
@@ -197,4 +197,8 @@ main {
   background-color: red;
   margin: 1.5rem 0;
   font-weight: bold;
+}
+
+a {
+  display: block;
 }
